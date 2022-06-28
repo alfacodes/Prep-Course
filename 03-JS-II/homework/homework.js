@@ -34,7 +34,7 @@ function conection(status) {
   if (status == 1) {
     return "Online";
   } else if (status == 2) {
-    result "Away";
+    return "Away";
   } else{
     return "Offline"
   }
